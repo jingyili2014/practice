@@ -1,0 +1,141 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.header {
+	background-image: url(shopping-online.jpg);
+	background-position: center;
+	background-size: cover;
+	min-height: 700px;
+}
+
+.header h1 {
+	text-align: center;
+	padding-top: 250px;
+	font-size: 65px;
+	letter-spacing: -2px;
+	color: white;
+}
+
+.header h3 {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 24px;
+	color: white;
+}
+
+.nav_left {
+	float: left;
+	position: absolute;
+	top: 0;
+}
+
+.nav_right {
+	float: left;
+	position: absolute;
+	top: 0;
+	right: 240px;
+}
+
+.nav_left a, .nav_right a {
+	color: #b3b3b3;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	padding: 14px 18px;
+	font-size: 17px;
+	margin-top: 18px;
+}
+
+.start_free_trial {
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.start_free_trial a {
+	background-color: #6b64ee;
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	border: 2px solid #6b64ee;
+	border-radius: 4px;
+	color: white;
+	padding: 12px 14px;
+	margin-right: 90px;
+	margin-top: 18px;
+}
+
+.start_free_trial a:hover {
+	background-color: hsl(243, 80%, 66%, 0%);
+}
+
+.nav_left a:hover, .nav_right a:hover {
+	color: white;
+}
+
+#logo {	
+	width: 142px;
+	height: 100px;
+	position: absolute;
+	left: 67px;
+	top: 0;
+	background: url(f.gif) 0 0;
+	background-size: 245px;
+	background-repeat: no-repeat;
+}
+
+.link {
+	text-align: center;
+	padding-top: 70px;
+}
+
+.link a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;	
+	border: 1.5px solid white;
+	border-radius: 5px;
+	margin: 30px 15px;
+	padding: 15px 40px;
+}
+
+.link a:hover {
+	background-color: white;
+	color: #00091a;
+}
+
+.dropdown {
+	position: relative;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+	background-color: white;
+	color: #b3b3b3;
+}
+
+.dropdown-content a {
+	display: block;
+	text-decoration: none;
+	padding: 14px 16px;
+	color: #b3b3b3;
+}
+
+
+
